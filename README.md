@@ -14,6 +14,14 @@ By combining outputs from specialized models, the system achieves highly reliabl
 
 ---
 
+## Project Highlights
+
+- Ensemble-based deepfake and image forgery detection framework
+- Supports Deepfake, Morphing, and Splicing attack detection
+- Uses multiple specialized CNN models with soft-voting ensemble
+- Achieves robust performance across multiple datasets
+- Developed as a final-year AI/ML research project
+
 ## Features
 
 * Deepfake image detection using deep learning
@@ -96,6 +104,33 @@ By combining outputs from specialized models, the system achieves highly reliabl
 * Custom Splicing Dataset
 
 ---
+## Installation
+
+```bash
+git clone https://github.com/ManishVarma4/Robust-Ensemble-based-Deepfake-Image-Detection.git
+cd Robust-Ensemble-based-Deepfake-Image-Detection
+pip install -r requirements.txt
+```
+
+## Usage
+
+1. Load the trained model weights.
+2. Provide an input facial image.
+3. Run the prediction pipeline.
+4. View the predicted forgery type and confidence score.
+
+## Project Structure
+
+├── app.py
+├── ensemble_decision.py
+├── deepfake_resnet18_v2.pth
+├── morph_model.pth
+├── resnet18_splicing.pth
+├── README.md
+
+## Architecture
+
+![Architecture](flowchart.jpeg)
 
 ## Future Improvements
 
