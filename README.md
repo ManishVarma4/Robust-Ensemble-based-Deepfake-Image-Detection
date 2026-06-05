@@ -38,7 +38,6 @@ By combining outputs from specialized models, the system achieves highly reliabl
 
 * Python
 * TensorFlow / PyTorch
-* OpenCV
 * CNN (Convolutional Neural Networks)
 * ResNet18 & ResNet50
 * Transfer Learning
